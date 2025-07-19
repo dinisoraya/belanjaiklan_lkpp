@@ -41,13 +41,16 @@ def get_detail_paket(id_paket):
 
 # Daftar keyword yang dicari (case-insensitive)
 keywords = [
-    "iklan", "surat kabar", "suratkabar", "koran", "cetak",
-    "majalah", "publikasi", "radio", "televisi", "tv", 
-    "online", "siber", "cyber", "talk show", "talkshow",
+    "iklan", "surat kabar", "suratkabar", "koran", "media cetak",
+    "majalah", "publikasi", "radio", "televisi", "tv",
+    "media online", "siber", "cyber", "talk show", "talkshow",
     "pariwara", "advertorial", "advertising", "ads", "adv",
-    "advertiser", "kampanye", "campaign", "promosi", "diseminasi"
-    "podcast", "sosialisasi", "edukasi",  "komunikasi", "elektronik"
-    "informasi", "lokal", "nasional", "pemasaran"
+    "advertiser", "kampanye", "campaign", "promosi", "diseminasi",
+    "podcast", "media elektronik", "media lokal", "media nasional", "pemasaran",
+    "penerbitan", "media digital", "newspaper", "media tradisional", "media massa",
+    "media", "media internasional", "press", "pers", "placement",
+    "news paper", "penayangan", "pemuatan", "tabloid",  "sponsorship",
+    "sponsor"
 ]
 
 # Step 2: Ambil data paket
