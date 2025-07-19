@@ -10,7 +10,7 @@ headers = {'User-Agent': 'Mozilla/5.0'}
 # Step 1: Ambil daftar satker
 url_satker = "https://sirup.lkpp.go.id/sirup/datatablectr/datatableruprekapkldi"
 params_satker = {
-    'idKldi': 'K1',  # Ganti sesuai kebutuhan
+    'idKldi': 'K63',  # Ganti sesuai kebutuhan
     'tahun': tahun,
     'sEcho': '1',
     'iColumns': '10',
@@ -50,7 +50,7 @@ keywords = [
     "penerbitan", "media digital", "newspaper", "media tradisional", "media massa",
     "media", "media internasional", "press", "pers", "placement",
     "news paper", "penayangan", "pemuatan", "tabloid",  "sponsorship",
-    "sponsor"
+    "sponsor", "media daring"
 ]
 
 # Step 2: Ambil data paket
@@ -114,7 +114,7 @@ df.index += 1  # mulai dari 1
 df.reset_index(inplace=True)
 df.rename(columns={"index": "No"}, inplace=True)
 
-excel_path = r'C:\Users\ASUS\Downloads\kemenag_keywoard_2025.xlsx'
+excel_path = r'C:\Users\ASUS\Downloads\kemendesa_keywoard_2025.xlsx'
 df.to_excel(excel_path, index=False)
 
 print(f"\n✅ File berhasil disimpan di: {excel_path}")
