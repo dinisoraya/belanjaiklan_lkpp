@@ -47,7 +47,7 @@ keywords = [
     "pariwara", "advertorial", "advertising", "ads", "adv",
     "advertiser", "kampanye", "campaign", "promosi", "diseminasi"
     "podcast", "sosialisasi", "edukasi",  "komunikasi", "elektronik"
-    "informasi", "lokal", "nasional"
+    "informasi", "lokal", "nasional", "pemasaran"
 ]
 
 # Step 2: Ambil data paket
